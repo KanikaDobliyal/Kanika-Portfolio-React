@@ -1,24 +1,42 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
+import About from "./Components/About";
 import Projects from "./Components/Projects";
-
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
       <HashRouter>
-      <NavBar />
-      <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/about" element={<About />}></Route>
-        <Route exact path="/projects" element={<Projects />}></Route>
-        <Route exact path="/contact" element={<Contact />}></Route>
-      </Routes>
-    </HashRouter>
+        <NavBar />
+
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={<Home designation="Web Developer" />}
+          ></Route>
+          <Route
+            exact
+            path="/about"
+            element={<About heading="My Skills" />}
+          ></Route>
+          <Route
+            exact
+            path="/projects"
+            element={<Projects heading="Projects" />}
+          ></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+        </Routes>
+
+        <Footer
+          address="54, HNB Colony, Mothorawala Road, Dehradun - 248001"
+          phone="+91- 9761382290"
+        />
+      </HashRouter>
     </div>
   );
 }
