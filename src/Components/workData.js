@@ -14,7 +14,7 @@ const projectData = [
     imgsrc: newsApp,
     title: "News Updates",
     description:
-      "NewsUpdates is a news app which can be used to grab quick daily news bites.",
+      "NewsUpdates is a news app which can be used to grab quick daily news bites. This project currently works only on localhost due to the use of an external API with a developer plan. It is not live in production. I plan to update it in the future.",
     view: "https://kanikadobliyal.github.io/NewsApp-React/",
   },
   {
