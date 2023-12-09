@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Work(props) {
   let { imgsrc, title, description, view } = props;
@@ -10,9 +9,10 @@ function Work(props) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <Link to={view} className="btn btn-dark">
+          <a href={view} target="_blank"
+              rel="noopener noreferrer" className="btn btn-dark">
             View Project
-          </Link>
+          </a>
         </div>
       </div>
     </div>
