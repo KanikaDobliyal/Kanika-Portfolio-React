@@ -8,6 +8,10 @@ import git from "./Images/git.png";
 import github from "./Images/github.png";
 import AboutHome from "./AboutHome";
 import HeroImg from "./HeroImg";
+import tailwind from "./Images/tailwind.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css/animate.min.css";
+import "./About.css";
 
 function About(props) {
   useEffect(() => {
@@ -31,71 +35,123 @@ function About(props) {
       />
 
       <div className="container my-5 text-center">
-        <h1 className="my-3 mx-3" style={{ color: "white", fontSize: "50px" }}>
+        <h1
+          className="my-3 mx-3"
+          style={{ color: "white", fontSize: "50px", fontFamily: "cursive" }}
+        >
           {props.heading}
         </h1>
         <div className="row d-flex justify-content-lg-evenly text-center mt-4">
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://en.wikipedia.org/wiki/HTML5"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={html} alt="html-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={html}
+                alt="html-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://en.wikipedia.org/wiki/CSS"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={css} alt="css-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={css}
+                alt="css-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://en.wikipedia.org/wiki/JavaScript"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={javascript} alt="javascript-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={javascript}
+                alt="javascript-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://react.dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={react} alt="react-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={react}
+                alt="react-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://getbootstrap.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={bootstrap} alt="bootstrap-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={bootstrap}
+                alt="bootstrap-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="rounded"
+                src={tailwind}
+                alt="tailwind-img"
+                style={skillsIcon}
+              />
+            </a>
+          </div>
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://git-scm.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={git} alt="git-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={git}
+                alt="git-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
-          <div className="col-3 my-4 mx-3">
+          <div className="col my-4 mx-3 skills animate__animated animate__pulse">
             <a
               href="https://github.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={github} alt="github-img" style={skillsIcon} />
+              <img
+                className="rounded"
+                src={github}
+                alt="github-img"
+                style={skillsIcon}
+              />
             </a>
           </div>
         </div>

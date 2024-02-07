@@ -34,15 +34,32 @@ const Home = (props) => {
           style={{ width: "250px", height: "250px" }}
         />
         <h1
-          className="fw-bold text-center my-3 text-capitalize"
-          style={{ color: "white", fontSize: "20px" }}
+          className="fw-bold text-center my-3 animate__animated animate__zoomIn"
+          style={{
+            color: "white",
+            fontSize: "25px",
+            fontFamily: "-moz-initial",
+          }}
         >
           Hello, I am{" "}
-          <span style={{ color: "#3c969e", fontSize: "30px" }}>
+          <span
+            style={{
+              color: "#3c969e",
+              fontSize: "30px",
+              fontFamily: "-moz-initial",
+            }}
+          >
             Kanika Dobliyal.
           </span>
         </h1>
-        <p style={{ color: "white", fontWeight: "bold", fontSize: "20px" }}>
+        <p
+          style={{
+            color: "white",
+            fontWeight: "bold",
+            fontSize: "30px",
+            fontFamily: "-moz-initial",
+          }}
+        >
           {props.designation}
         </p>
       </div>

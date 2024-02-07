@@ -21,10 +21,25 @@ function HeroImg(props) {
         />
       </div>
       <div className="container position-absolute top-50 start-50 translate-middle text-center">
-        <h1 style={{ color: "white", fontSize: "50px", fontWeight: "bold" }}>
+        <h1
+          style={{
+            color: "white",
+            fontSize: "50px",
+            fontWeight: "bold",
+            fontFamily: "cursive",
+          }}
+        >
           {props.heading}
         </h1>
-        <p style={{ color: "white", fontSize: "30px", fontWeight: "bold" }}>
+        <p
+          className="mt-4"
+          style={{
+            color: "white",
+            fontSize: "20px",
+            fontWeight: "bold",
+            fontFamily: "cursive",
+          }}
+        >
           {props.paragraph}
         </p>
       </div>

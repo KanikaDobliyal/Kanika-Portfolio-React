@@ -1,0 +1,15 @@
+/* Apply the transition to the card */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    border-color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+}
+
+/* Apply the transformation on hover */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: #185c83;
+  background-color: #f7f7f7;
+  opacity: 0.9;
+}

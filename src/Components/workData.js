@@ -7,15 +7,15 @@ import surveyForm from "./Images/surveyForm.png";
 import stickyNavbar from "./Images/stickyNavbar.png";
 import stopWatch from "./Images/stopWatch.png";
 import hackerMan from "./Images/hackerMan.png";
-import newsApp from "./Images/newsApp.png";
+import twitterClone from "./Images/twitterClone.png";
 
 const projectData = [
   {
-    imgsrc: newsApp,
-    title: "News Updates",
+    imgsrc: twitterClone,
+    title: "Twitter Clone",
     description:
-      "NewsUpdates is a news app which can be used to grab quick daily news bites. This project currently works only on localhost due to the use of an external API with a developer plan. It is not live in production. I plan to update it in the future.",
-    view: "https://kanikadobliyal.github.io/NewsApp-React/",
+      "Twitter clone is a responsive website made by tailwind css utility classes.",
+    view: "https://kanikadobliyal.github.io/Twitter-Clone-Tailwind-CSS/",
   },
   {
     imgsrc: textUtils,
@@ -23,6 +23,22 @@ const projectData = [
     description:
       "TextUtils is a utility which can be used to manipulate your text in the way you want.",
     view: "https://kanikadobliyal.github.io/TextUtils/",
+  },
+
+  {
+    imgsrc: ProductLandingPage,
+    title: "Product Landing Page",
+    description:
+      "A product landing page is a web page designed to promote or sell a product. I have made this project for practice purpose only by using html and css.",
+    view: "https://kanikadobliyal.github.io/productlandingpage/",
+  },
+
+  {
+    imgsrc: stopWatch,
+    title: "Stop Watch",
+    description:
+      "a watch which can be started and stopped by pressing a button, so that you can measure exactly how long something takes.",
+    view: "https://kanikadobliyal.github.io/stop-watch/",
   },
   {
     imgsrc: validationForm,
@@ -32,18 +48,26 @@ const projectData = [
     view: "https://kanikadobliyal.github.io/validation-form/",
   },
   {
-    imgsrc: ProductLandingPage,
-    title: "Product Landing Page",
-    description:
-      "A product landing page is a web page designed to promote or sell a product. I have made this project for practice purpose only by using html and css.",
-    view: "https://kanikadobliyal.github.io/productlandingpage/",
-  },
-  {
     imgsrc: technicalDocumentation,
     title: "Technical Documentation",
     description:
       "Technical documentation is any piece of writing that describes the application, purpose, creation or architecture of a product or service.",
     view: "https://kanikadobliyal.github.io/technicaldocumentation/",
+  },
+
+  {
+    imgsrc: stickyNavbar,
+    title: "Sticky Navbar",
+    description:
+      "Sticky navbar's allow users to access a website's navigation even when they've scrolled down the page. I have created this sticky navbar by using JavaScript.",
+    view: "https://kanikadobliyal.github.io/sticky-navbar/",
+  },
+  {
+    imgsrc: hackerMan,
+    title: "Hackerman",
+    description:
+      "A hackerman is a fake hacking process in which you can prank with your friends. This is made by using async await concept of JavaScript.",
+    view: "https://kanikadobliyal.github.io/hackerman/",
   },
   {
     imgsrc: tributePage,
@@ -58,27 +82,6 @@ const projectData = [
     description:
       "A survey introduction is a concise description with relevant information about a survey. It is the first part of the survey that prospective respondents interact with and it helps them decide whether to fill your questionnaire or not.",
     view: "https://kanikadobliyal.github.io/surveyform/",
-  },
-  {
-    imgsrc: stickyNavbar,
-    title: "Sticky Navbar",
-    description:
-      "Sticky navbar's allow users to access a website's navigation even when they've scrolled down the page. I have created this sticky navbar by using JavaScript.",
-    view: "https://kanikadobliyal.github.io/sticky-navbar/",
-  },
-  {
-    imgsrc: stopWatch,
-    title: "Stop Watch",
-    description:
-      "a watch which can be started and stopped by pressing a button, so that you can measure exactly how long something takes.",
-    view: "https://kanikadobliyal.github.io/stop-watch/",
-  },
-  {
-    imgsrc: hackerMan,
-    title: "Hackerman",
-    description:
-      "A hackerman is a fake hacking process in which you can prank with your friends. This is made by using async await concept of JavaScript.",
-    view: "https://kanikadobliyal.github.io/hackerman/",
   },
 ];
 

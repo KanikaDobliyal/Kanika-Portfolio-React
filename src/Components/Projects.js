@@ -10,14 +10,17 @@ function Projects(props) {
 
   return (
     <div>
-      <HeroImg heading="Projects" paragraph="Here are some of my works." />
+      <HeroImg
+        heading="Projects"
+        paragraph="Diving into My Project Showcase."
+      />
 
       <div className="container mb-5">
-        <h1 className="mt-5 text-center text-light">{props.heading}</h1>
+        <h1 className="my-5 text-center text-light">{props.heading}</h1>
         <div className="row">
           {projectData.map((element) => {
             return (
-              <div className="col-md-4" key={element.imgsrc}>
+              <div className="col-md-6" key={element.imgsrc}>
                 <Work
                   imgsrc={element.imgsrc}
                   title={element.title}

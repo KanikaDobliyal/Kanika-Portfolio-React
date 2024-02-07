@@ -6,11 +6,13 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <div>
       <HashRouter>
+        <ScrollToTop />
         <NavBar />
 
         <Routes>

@@ -10,18 +10,29 @@ function AboutHome(props) {
             src={aboutGif}
             className="img-rounded"
             alt="about-img"
-            style={{ width: "auto", height: "250px" }}
+            style={{ width: "auto", height: "250px", borderRadius: "20px" }}
           />
         </div>
 
         <div className="col-lg-5 mx-3 text-center">
-          <h1 style={{ color: "white", fontSize: "50px" }}>{props.heading}</h1>
-          <p className="mt-4" style={{ color: "white", fontSize: "20px" }}>
+          <h1
+            style={{ color: "white", fontSize: "50px", fontFamily: "cursive" }}
+          >
+            {props.heading}
+          </h1>
+          <p
+            className="mt-4"
+            style={{
+              color: "white",
+              fontSize: "20px",
+              fontFamily: "-moz-initial",
+            }}
+          >
             {props.paragraph}
           </p>
           <div>
             <a
-              href="https://drive.google.com/file/d/1AWxfbmEKc6pcf_wLpOfXXYyy4lyL9L1E/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UfGBtDm6LkCkkyky6iD5U_5iy_ze_fnp/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-info my-2"
