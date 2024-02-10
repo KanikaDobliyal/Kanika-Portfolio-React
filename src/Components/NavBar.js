@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const NavBar = (props) => {
+const NavBar = () => {
   const [scrollY, setScrollY] = useState(0);
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
   const location = useLocation();
@@ -34,7 +34,6 @@ const NavBar = (props) => {
     backgroundColor: scrollY > 5 ? "#095057" : "transparent",
     color: scrollY > 5 ? "black" : "white",
     transition: "background-color 0.3s ease-in-out",
-    padding: "15px",
     position: "fixed",
     width: "100%",
     top: 0,
@@ -53,7 +52,6 @@ const NavBar = (props) => {
 
   const activeLinkStyle = {
     borderBottom: "2px solid white", // Add a bottom border for the active link
-    paddingBottom: "2px",
     color: "white",
   };
 
