@@ -32,7 +32,7 @@ function AboutHome(props) {
           </p>
           <div>
             <a
-              href="https://drive.google.com/file/d/1UfGBtDm6LkCkkyky6iD5U_5iy_ze_fnp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iDJtnAyDR4ZQkPPYQ4M-QEkJPNtDCACZ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-info my-2"

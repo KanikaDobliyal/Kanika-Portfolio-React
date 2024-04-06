@@ -8,6 +8,7 @@ import stickyNavbar from "./Images/stickyNavbar.png";
 import stopWatch from "./Images/stopWatch.png";
 import hackerMan from "./Images/hackerMan.png";
 import twitterClone from "./Images/twitterClone.png";
+import newsApp from "./Images/newsApp.png";
 
 const projectData = [
   {
@@ -16,6 +17,13 @@ const projectData = [
     description:
       "Twitter clone is a responsive website made by tailwind css utility classes.",
     view: "https://kanikadobliyal.github.io/Twitter-Clone-Tailwind-CSS/",
+  },
+  {
+    imgsrc: newsApp,
+    title: "News Updates",
+    description:
+      "NewsUpdates is a web application that provides users with the latest news from around the world. The app utilizes the NewsAPI to gather news articles.",
+    view: "https://kanikadobliyal.github.io/NewsApp-React/",
   },
   {
     imgsrc: textUtils,
